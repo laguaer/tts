@@ -15,7 +15,7 @@
     textarea {
       display: flex;
       width: 98%;
-      height: calc(100vh - 400px);
+      height: calc(100vh - 330px);
       padding: 10px;
       border: 1px solid #ccc;
       border-radius: 4px;
@@ -71,6 +71,12 @@
 
     button:hover {
       background-color: #1a237e;
+    }
+    
+    @media (max-width: 1000px) {
+      textarea {
+        height: calc(100vh - 400px);
+      }
     }
   </style>
 </head>
